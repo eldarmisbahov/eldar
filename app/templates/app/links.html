@@ -1,0 +1,14 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load static %}
+
+    <h2>{{ title }}:</h2>
+
+        <h3>Наши социальные сети:</h3><br />
+        <span>
+            <a href="https://vk.com/kurer___pskov"><img src="{% static 'app/content/vk.jpg' %}" width="100px" alt="Вконтакте" /></a>
+            <a href="https://www.instagram.com/pskovskiy_nezavisimiy_kurer/"><img src="{% static 'app/content/instagram.jpg' %}" width="100px" alt="Инстаграм" /></a>
+        </span>
+
+{% endblock %}
